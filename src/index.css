@@ -1,0 +1,11 @@
+@import "tailwindcss";
+.font-audiowide{
+    font-family: 'Audiowide', serif;
+}
+.gradient-background1{
+  background: rgb(1,0,48);
+background: linear-gradient(72deg, rgba(1,0,48,0.87718837535014) 0%, rgba(114,38,255,0.3533788515406162) 100%);
+}
+.hovercolor1{
+  color:#f042ff;
+}
