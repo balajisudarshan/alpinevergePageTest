@@ -2,6 +2,7 @@ import React from 'react';
 import herologo from '/assets/avlogo.png';
 
 const Hero = () => {
+  
   return (
     <section className="min-h-screen flex justify-center items-center bg-gradient-to-r from-[#010030] to-[#7226ff59] px-0 pt-10 ">
       <div className="flex flex-wrap md:flex-nowrap items-center justify-center gap-8 max-w-5xl">
@@ -20,7 +21,7 @@ const Hero = () => {
           <img 
             src={herologo} 
             alt="Hero Logo" 
-            className="max-w-full w-4/5 sm:w-3/5 md:w-1/2 lg:w-[400px] h-auto flex-shrink-0"
+            className="max-w-full w-2/5 sm:w-3/5 md:w-1/2 lg:w-[400px] h-auto flex-shrink-0"
           />
         </div>
       </div>
