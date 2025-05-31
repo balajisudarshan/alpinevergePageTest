@@ -1,0 +1,107 @@
+.courseCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffffcc;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px;
+}
+
+.courseCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.thumbnail img {
+  border-radius: 12px 12px 0 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.courseContent {
+  padding: 16px 20px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ratingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.rating {
+  background-color: #ffeaa7;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.fouriteLogo {
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.fouriteLogo:hover {
+  transform: scale(1.2);
+  color: red;
+}
+
+.courseContent h2 {
+  font-size: 1.2rem;
+  font-family: "Audiowide", sans-serif;
+  margin: 0;
+}
+
+.props {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.prop {
+  background-color: #f1f1f1;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.amount {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #2d3436;
+}
+
+.enrollBtn button {
+  background-color: orange;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.enrollBtn button:hover {
+  background-color: #ff8c00;
+}
