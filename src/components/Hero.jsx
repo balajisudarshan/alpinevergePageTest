@@ -4,7 +4,7 @@ import herologo from '/assets/avlogo.png';
 const Hero = () => {
   
   return (
-    <section className="min-h-screen flex justify-center items-center bg-gradient-to-r from-[#010030] to-[#7226ff59] px-0 pt-10 ">
+    <section className="min-h-screen flex justify-center items-center bg-gradient-to-r from-[#9B6C90] to-[#F2F2F2] px-0 pt-10 ">
       <div className="flex flex-wrap md:flex-nowrap items-center justify-center gap-8 max-w-5xl">
         
         {/* Content Section */}

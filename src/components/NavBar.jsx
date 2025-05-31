@@ -6,7 +6,7 @@ const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="flex justify-between items-center px-6 py-4 bg-gradient-to-r from-[#010030] to-[#7226ff59]">
+    <nav className="flex justify-between items-center px-6 py-4 bg-gradient-to-r from-[#9B6C90] to-[#F2F2F2]">
   
       <div className="flex items-center space-x-3">
         <img src={logo} className="w-16" alt="Logo" />
@@ -15,10 +15,10 @@ const NavBar = () => {
 
       {/* Desktop Navigation */}
       <div className="hidden md:flex space-x-8">
-        <a href="#" className="text-white font-audiowide hover:text-[#7226ff] transition-colors duration-300">Home</a>
-        <a href="#" className="text-white font-audiowide hover:text-[#7226ff] transition-colors duration-300">About</a>
-        <a href="#" className="text-white font-audiowide hover:text-[#7226ff] transition-colors duration-300">Services</a>
-        <a href="#" className="text-white font-audiowide hover:text-[#7226ff] transition-colors duration-300">Contact</a>
+        <a href="#" className="text-black font-audiowide hover:text-[#7226ff] transition-colors duration-300">Home</a>
+        <a href="#" className="text-black font-audiowide hover:text-[#7226ff] transition-colors duration-300">About</a>
+        <a href="#" className="text-black font-audiowide hover:text-[#7226ff] transition-colors duration-300">Services</a>
+        <a href="#" className="text-black font-audiowide hover:text-[#7226ff] transition-colors duration-300">Contact</a>
       </div>
 
       {/* Mobile Menu Button */}
